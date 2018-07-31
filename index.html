@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <title>ROS2 Web Demo</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            #links {
+                margin-top: 80px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button 
+                </div>
+            </div>
+        </div> -->
+        <!-- Tabs 
+        <index tabs>
+        <a href="controller.html">Controller</a>
+
+        (
+            * button: move robots
+            * 2D map
+        )
+        <a href="flowchart.html">Architecture</a>
+        (
+            * flow: ok
+            * button: animation: done
+            * flow: js event, code: tbd
+            * publish Twist message
+        )
+
+        <a href="realsense.html">AI releated</a>
+        （
+         * motion to control robot
+         ）
+        -->
+
+        
+        <!-- <nav class="navbar navbar-default navbar-static-top"> -->
+            <div id="links" class="container">   
+                <!-- <ul class="nav navbar-nav"> -->
+                    <div class="jumbotron">
+                        <h1>TurtleBot3 robot moving demo</h1>
+                        <p class="lead">Control the TurtleBot3 robot on a web-based controller center. Ros2-web-bridge and rclnodejs are used in this demo. They're
+                            running in the Node.js runtime. Ros2-web-bridge is bridge that connect the web front-end side (roslibjs) and back-end side (rclnodejs).
+                            The rclnodejs calls the RCL to interactive the ROS2 native nodes.
+                        </p>                        
+                        <a type="button" class="btn btn-lg btn-info" href="controller.html">Start Now</a>
+                    </div>
+                    
+                    <div class="jumbotron">
+                        <h1>The Architecture</h1>
+                        <p class="lead">
+                            Represent the archtitecure diagram of the web control center. The flow is represented by JavaScript code.
+                            Some key code snippets are showed to guide how to write ROS code in JavaScript based on roslibjs and rclnodejs.
+                        </p>
+                        <a type="button" class="btn btn-lg btn-info" href="flowchart.html">Flow Chart</a>
+                    </div>
+                    
+                    <div class="jumbotron">
+                        <h1>Work with Intel RealSense</h1>
+                        <p class="lead">
+                            Try some ideas that make the ROS nodes and Intel RealSense work together.
+                        </p>
+                        <a type="button" class="btn btn-lg btn-info" href="realsense.html">RealSense</a>
+                    </div>
+                    
+                <!-- </ul> -->
+            </div>
+        <!-- </nav>         -->
+    </body>
+</html>
